@@ -1,9 +1,9 @@
 # Piper TTS Server
 
-This Node.js application is a Text-to-Speech (TTS) server using Piper, which converts text input into spoken audio.
+This is a fork of [flukexp's Piper-TTS API Wrapper](https://github.com/flukexp/PiperTTS-API-Wrapper.git) rewritten to run on arch
 
 ## Requirements
-#### Mac and Window (Ubuntu)
+#### Arch Linux
 - Node.js
 - Npm
 
@@ -11,13 +11,13 @@ This Node.js application is a Text-to-Speech (TTS) server using Piper, which con
 
 1. Clone the repository.
     ```bash
-   git clone https://github.com/flukexp/PiperTTS-API-Wrapper.git
+   git clone https://github.com/r0gueSch0lar/PiperTTS-API.git
 2. Navigate to the project directory.
     ```bash
-    cd PiperTTS-API-Wrapper
+    cd PiperTTS-API
 3. Install dependencies, Piper TTS, Piper sample voices and Start piper server:
    ```bash
-   ./piper_installer.sh
+   makepkg -si
    
 ## Endpoints
 #### Base URL
