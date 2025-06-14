@@ -26,3 +26,4 @@ models/MODEL_CARD
 espeak-ng
 piper
 piper_phonemize
+node_modules
