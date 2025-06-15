@@ -79,7 +79,7 @@ async function runExecutable(input, voice, res) {
         try {
             const tempFileName = generateRandomFileName();
             // const outputFile = path.join('/tmp', tempFileName);
-            const outputFile = path.join(__dirname, tempFileName);
+            const outputFile = path.join('/tmp', tempFileName);
             const voicePath = await getVoicePath(voice);
             logToTextFile(input, voice);
             const cmd = `piper-tts --model ${voicePath} --output_file ${outputFile}`;

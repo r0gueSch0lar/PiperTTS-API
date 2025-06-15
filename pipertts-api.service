@@ -1,0 +1,11 @@
+[Unit]
+Description=A simple API server for piper-tts
+After=network-online.target
+
+[Service]
+Restart=on-failure
+WorkingDirectory=/opt/node-apps/myapp
+ExecStart=/usr/bin/node /opt/node-apps/myapp/app.js
+
+[Install]
+WantedBy=multi-user.target
