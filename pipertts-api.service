@@ -3,9 +3,10 @@ Description=A simple API server for piper-tts
 After=network-online.target
 
 [Service]
+Environment=PIPER_PORT=3001
 Restart=on-failure
 WorkingDirectory=/opt/node-apps/myapp
-ExecStart=/usr/bin/node /opt/node-apps/myapp/app.js
+ExecStart=/usr/bin/node /opt/node-apps/pipertts-api/server.js
 
 [Install]
 WantedBy=multi-user.target

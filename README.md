@@ -15,7 +15,7 @@ This is a fork of [flukexp's Piper-TTS API Wrapper](https://github.com/flukexp/P
 2. Navigate to the project directory.
     ```bash
     cd PiperTTS-API
-3. Install dependencies, piper-tts (piper-tts-bin(AUR) || piper-tts-git(AUR)), piper-voices-minimal(AUR):
+3. Install dependencies: piper-tts (piper-tts-bin(AUR) || piper-tts-git(AUR)), piper-voices-minimal(AUR):
    ```bash
    makepkg -si
    
